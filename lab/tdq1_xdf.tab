@@ -1,0 +1,87 @@
+# ステータス伸び
+02251d
+	byte[7]
+end[12]
+
+# なまえ
+03a446
+	ascii[16]
+end[10]
+
+# 呪文Lv
+03a566
+	byte[20]
+end[6]
+
+# 戦闘呪文
+03a5de
+	byte[18]
+end[12]
+
+# 移動呪文
+03a6b6
+	byte[5]
+end[12]
+
+# 経験値
+03a6f2
+	dc.l[100]
+	cr
+end[5]
+
+# アイテム名称
+03aec2
+	ascii[20]
+end[100]
+
+# アイテム
+03b692
+#	威力
+	byte[21]
+	byte[16]
+	byte[11]
+	byte[10]
+	byte[20]
+	byte[22]
+#	価格
+	dc.l[21]
+	cr
+	dc.l[16]
+	cr
+	dc.l[11]
+	cr
+	dc.l[10]
+	cr
+	dc.l[20]
+	cr
+	dc.l[22]
+#	装備
+	byte[21]
+	byte[16]
+	byte[11]
+	byte[10]
+	byte[20]
+	byte[22]
+end[1]
+
+# 呪文名称
+03b8ea
+	ascii[9]
+end[46]
+
+# 魔物データ
+03ca50
+#	魔物名
+	ascii[16]
+#	HP,攻,守,素,MP,Ex,G
+	dc.w[7]
+#	特技
+	byte[6]
+#	耐性
+	dc.w
+#	外見,色
+	byte[2]
+#	宝,率
+	byte[2]
+	cr
+end[82]

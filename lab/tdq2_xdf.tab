@@ -1,0 +1,56 @@
+# キャラ
+0494fe
+	ascii[6]
+	ascii[10]
+	dc.w[11]
+	dc.w
+	dc.l
+	dc.w
+	byte[10]
+	byte[10]
+	byte[4]
+	dc.b
+	byte[21]
+	byte[10]
+	dc.b
+	dc.b
+	cr
+end[24]
+
+# 呪文
+049ebe
+	dc.l
+	byte[4]
+	byte[20]
+	byte[18]
+	byte[18]
+	byte[10]
+	byte[10]
+	dc.w
+	dc.b
+	byte[7]
+	dc.l
+	cr
+end[24]
+
+# LvEx
+04a7ee
+	dc.l[100]
+	cr
+end[7]
+
+# ステータス伸び
+04b2de
+	byte[14]
+end[24]
+
+# 魔物データ
+04b42e
+	dc.l
+	dc.w[7]
+	byte[6]
+	dc.l
+	byte[2]
+	byte[2]
+	cr
+end[163]
