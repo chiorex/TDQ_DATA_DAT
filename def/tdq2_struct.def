@@ -1,0 +1,207 @@
+struct TDQ2_設定
+{
+	BYTE プレイ状態;
+	BYTE 文字速度;
+	BYTE unknown2_0[2];
+	WORD 更新日;
+	DWORD 更新時刻;
+	BYTE unknown2_1[2];
+	WORD 作成日;
+	DWORD 作成時刻;
+	BYTE ｶﾅ[6];
+	BYTE なまえ[10];
+	BYTE unknown2_2[2];
+	WORD セーブ座標[2];
+	BYTE unknown1;
+	BYTE セーブ街No;
+	BYTE unknown1_2;
+	long プレイ時間;
+};
+
+struct TDQ2_共通
+{
+	BYTE ゲーム内日付時刻[8];
+	long G;
+	long ペソ;
+	long 預G;
+	BYTE 預アイテム[64];
+	BYTE 作戦;
+	BYTE PT人数[7];
+	DWORD ルーラ;
+	WORD 船[2];
+	WORD 竜[2];
+	BYTE isfield;
+	BYTE unknown1_3;
+	WORD ルラミト_フィールド[2];
+	WORD ルラミト_街[2];
+	BYTE ルラミト_街No;
+	BYTE unknown5[5];
+	BYTE フラグ[80];
+	BYTE PT並び1[6];
+	WORD PT並び2[32];
+	WORD 魔物91[91];
+	WORD 魔物_ホークマン[2];
+	WORD 魔物70[70];
+	BYTE unknown186[186];
+};
+
+struct TDQ2_キャラ
+{
+	BYTE ｶﾅ[6];
+	BYTE なまえ[10];
+	short 力;
+	short 素早さ;
+	short 体力;
+	short 賢さ;
+	short 運;
+	short 攻撃力;
+	short 守備力;
+	short HP;
+	short 最大HP;
+	short MP;
+	short 最大MP;
+	WORD 状態;
+	long Ex;
+	short Lv;
+	BYTE 持ち物[10];
+	BYTE 装備状態[10];
+	BYTE 装備[4];
+	byte 呪文;
+	BYTE 魔物攻撃[21];
+	BYTE フラグ[10];
+	BYTE 登録;
+	BYTE unknown1;
+};
+
+struct TDQ2_冒険の書
+{
+	TDQ2_設定 ヘッダ;
+	TDQ2_共通 暗号化;
+	TDQ2_キャラ 暗号化[24];
+	BYTE チェックサム;
+	BYTE blank[174];
+};
+
+struct TDQ2_冒険の書ベース
+{
+	TDQ2_設定 ヘッダ;
+	TDQ2_共通 暗号化;
+	TDQ2_キャラ 暗号化[24];
+	BYTE チェックサム;
+};
+
+struct TDQ2_セーブファイル_F3800
+{
+	TDQ2_冒険の書 セーブ[5];
+	TDQ2_冒険の書ベース ベース;
+};
+
+struct TDQ2_キャラ256_4953E
+{
+	TDQ2_キャラ キャラ[24];
+	TDQ2_キャラ 配列外[232];
+};
+
+struct TDQ2_呪文習得_49EFE
+{
+	DWORD なまえ;
+	byte 性別;
+	WORD 外見;
+	byte 属;
+	byte 習得倍率[20];
+	byte 呪文（戦闘）[18];
+	byte 習得順（戦闘）[18];
+	byte 呪文（移動）[10];
+	byte 習得順（移動）[10];
+	WORD unknown;
+	BYTE 職;
+	BYTE unknown[7];
+	DWORD 耐性;
+};
+
+struct TDQ2_経験値_4A82E
+{
+	long 真の勇者[100];
+	long 戦士[100];
+	long 武道家[100];
+	long 僧侶[100];
+	long 魔法使い[100];
+	long 賢者[100];
+	long 商人[100];
+};
+
+struct TDQ2_成長_4B31E
+{
+	byte 力[2];
+	byte 素早さ[2];
+	byte 体力[2];
+	byte 賢さ[2];
+	byte 運[2];
+	byte HP[2];
+	byte MP[2];
+};
+
+struct TDQ2_魔物_4B46E
+{
+	DWORD なまえ;
+	short HP;
+	short 攻撃力;
+	short 守備力;
+	short 素早さ;
+	short MP;
+	short Ex;
+	short G;
+	BYTE 特技[6];
+	DWORD 耐性;
+	BYTE 属（外見）;
+	BYTE 種（色）;
+	BYTE 宝;
+	BYTE 率;
+};
+
+struct TDQ2_ステータス_4953E
+{
+	TDQ2_キャラ キャラ[24];
+	TDQ2_呪文習得_49EFE 呪文習得[24];
+	TDQ2_経験値_4A82E 経験値;
+	TDQ2_成長_4B31E 成長[24];
+	TDQ2_魔物_4B46E 魔物[163];
+};
+
+struct TDQ2_アイテム
+{
+	DWORD ｶﾅ;
+	DWORD 名称;
+	short 価格;
+	BYTE 特殊効果;
+	BYTE 装備;
+	byte 威力;
+	BYTE 種;
+};
+
+struct TDQ2_効果
+{
+	BYTE アイテムID;
+	BYTE 特技ID;
+	byte 消費;
+	BYTE unknown;
+	DWORD msg1;
+	DWORD msg2;
+};
+
+struct TDQ2_アイテム_4CECC
+{
+	TDQ2_アイテム アイテム[180];
+	TDQ2_効果 特殊効果[39];
+	DWORD 特技名称[123];
+	byte 消費MP[70];
+	byte 威力[20];
+	byte 範囲[76];
+	byte 種別[92];
+};
+
+struct TDQ2_アイテム256_4CECC
+{
+	TDQ2_アイテム アイテム[180];
+	TDQ2_アイテム 配列外[76];
+};

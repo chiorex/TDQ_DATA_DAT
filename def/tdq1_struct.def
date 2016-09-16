@@ -1,0 +1,144 @@
+struct TDQ1_持ち物
+{
+	BYTE アイテム[8];
+};
+
+struct TDQ1_装備
+{
+	BYTE 武器;
+	BYTE 鎧;
+	BYTE 盾;
+	BYTE 兜;
+};
+
+struct TDQ1_冒険の書
+{
+	BYTE プレイ状態;
+	BYTE 表示速度;
+	WORD 座標[2];
+	BYTE 方向;
+	BYTE PT並び[10];
+	BYTE なまえ[16];
+	BYTE 主人公Lv;
+	
+	BYTE 外見[10];
+	BYTE フラグ[32];
+	short 力[10];
+	short 素早さ[10];
+	short 体力[10];
+	short 賢さ[10];
+	short 運[10];
+	short 最大HP[18];
+	short 最大MP[18];
+	short 攻撃力[10];
+	short 守備力[10];
+	long Ex[10];
+	byte Lv[10];
+	short 現在HP[18];
+	short 現在MP[18];
+	BYTE 状態[18];
+	TDQ1_持ち物 持ち物[10];
+	TDQ1_持ち物 装備状態[10];
+	TDQ1_装備 装備[10];
+	byte 呪文習得[6];
+	byte 呪文習得ページ（戦闘）[6];
+	
+	long G;
+	byte PT人数[4];
+	DWORD 歩くスピード;
+	WORD 未使用;
+	WORD 街No;
+	WORD ルーラ;
+	WORD 街フロアNo;
+	byte 聖水残り歩数[2];
+	WORD ルラミト;
+	WORD ルラミトフロアNo;
+	WORD ルラミト街No;
+	DWORD ルラミト座標[2];
+	
+	BYTE 未使用[24];
+};
+
+struct TDQ1_セーブファイル_10C400
+{
+	TDQ1_冒険の書 セーブ[5];
+	TDQ1_冒険の書 ベース;
+};
+
+struct TDQ1_なまえ
+{
+	BYTE 名称[16];
+};
+
+struct TDQ1_呪文Lv
+{
+	byte Lv[20];
+};
+
+struct TDQ1_戦闘呪文
+{
+	BYTE ID[18];
+};
+
+struct TDQ1_移動呪文
+{
+	BYTE ID[5];
+};
+
+struct TDQ1_Lv
+{
+	long 経験値[100];
+};
+
+struct TDQ1_アイテム
+{
+	BYTE 名称[20];
+};
+
+struct TDQ1_呪文
+{
+	BYTE 名称[9];
+};
+
+struct TDQ1_呪文・アイテム_3A486
+{
+	TDQ1_なまえ キャラ[18];
+	TDQ1_呪文Lv 呪文習得[6];
+	TDQ1_戦闘呪文 並び[6];
+	TDQ1_戦闘呪文 習得[6];
+	TDQ1_移動呪文 並び[6];
+	TDQ1_移動呪文 習得[6];
+	TDQ1_Lv 経験値[5];
+	
+	TDQ1_アイテム アイテム[100];
+	byte 威力[100];
+	long 価格[100];
+	BYTE 装備[100];
+	
+	TDQ1_呪文 呪文[46];
+	byte 消費MP[46];
+	byte 威力[22];
+};
+
+struct TDQ1_魔物
+{
+	BYTE なまえ[16];
+	short HP;
+	short 攻撃力;
+	short 守備力;
+	short 素早さ;
+	short MP;
+	short Ex;
+	short G;
+	BYTE 特技[6];
+	WORD 耐性;
+	BYTE 属（外見）;
+	BYTE 種（色）;
+	BYTE 宝;
+	BYTE 率;
+};
+
+struct TDQ1_魔物_3CA90
+{
+	TDQ1_魔物 魔物[82];
+};
