@@ -1,7 +1,6 @@
 <html lang="ja">
-<title>TDQ2 �_���[�W�v�Z</title>
+<title>TDQ2 ダメージ計算</title>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=Shift_jis">
 <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
 <style>
   @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
@@ -23,22 +22,22 @@ h3,h4,h5{
 </head>
 <body lang="ja">
 
-<h1>�_���[�W�v�Z</h1>
+<h1>ダメージ計算</h1>
 
-<h2>�U���́^�����</h2>
+<h2>攻撃力／守備力</h2>
 
 <div>
 <p>
-�G���G�ł�\(\mathrm{ATK}, \mathrm{DEF}\)�Ɂ}10%�ȓ��̌̍�������i�̍��̓o�g���J�n���Ɋm��j�B
-�Œ�{�X�ł�\(\mathrm{ATK}, \mathrm{DEF}\)�͎푰�l���̂܂܁B
-�o�C�L���g�A�X�J���A�X�N���g�A���J�j�A���J�i���ɂ��o�g������\(\mathrm{ATK}, \mathrm{DEF}\)�̒l�͕ω�����B
+雑魚敵では\(\mathrm{ATK}, \mathrm{DEF}\)に±10%以内の個体差がある（個体差はバトル開始時に確定）。
+固定ボスでは\(\mathrm{ATK}, \mathrm{DEF}\)は種族値そのまま。
+バイキルト、スカラ、スクルト、ルカニ、ルカナンによりバトル中に\(\mathrm{ATK}, \mathrm{DEF}\)の値は変化する。
 <ul>
-<li>\(\mathrm{ATK}\): �U���́}10%</li>
-<li>\(\mathrm{DEF}\): ����́}10%</li>
-<li>\(\mathrm{BONUS}\): �����̎�_��˂����Ƃ��̍U���̓{�[�i�X</li>
+<li>\(\mathrm{ATK}\): 攻撃力±10%</li>
+<li>\(\mathrm{DEF}\): 守備力±10%</li>
+<li>\(\mathrm{BONUS}\): 魔物の弱点を突いたときの攻撃力ボーナス</li>
 <ul>
-<li>�h���S���L���[�Ȃ�h���S���n��+30</li>
-<li>�]���r�L���[�Ȃ�j�t�������ϐ��̖�����+30</li>
+<li>ドラゴンキラーならドラゴン系に+30</li>
+<li>ゾンビキラーならニフラム無耐性の魔物に+30</li>
 </ul>
 </li>
 <li>\(\mathrm{ATK}_B = (\mathrm{ATK}\pm{}10\%) + \mathrm{BONUS}\)</li>
@@ -46,7 +45,7 @@ h3,h4,h5{
 </p>
 </div>
 
-<h2>�Ō�</h2>
+<h2>打撃</h2>
 
 <div>
 <ul>
@@ -65,7 +64,7 @@ h3,h4,h5{
 	0 \sim{} \sqrt{3\cdot\mathrm{ATK}_B-\mathrm{DEF}}
 \]
 </li>
-<li>���̑�
+<li>その他
 \[
 	0 \sim{} 1
 \]
