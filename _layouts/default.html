@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
-<title>default</title>
+<title>{{ page.title }}</title>
 <!-- cssとかjsもここで読み込み -->
-<link rel="stylesheet" href="css/common.css">
-<script src="js/top.js"></script>
- 
+<style>
+table, th, td {
+    border-collapse: collapse;
+    border:1px solid #333;
+}
+</style>
+<style>
+  @import url(//fonts.googleapis.com/earlyaccess/notosansjp.css);
+  @import url(//fonts.googleapis.com/css?family=Nova+Mono);
+</style>
+<style>
+body *{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+}
+h1,h2{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+}
+h3,h4,h5{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+}
+</style>
+
 <div class="container">
     {{ content }}
 </div>
