@@ -7,6 +7,7 @@ title: TDQ1
 
 * [打撃ダメージ計算](damage)
 * [打撃回避率](avoid)
+* [会心率](critical)
 * [呪文命中率](spell_hit_rate)
 * ブレス耐性
 * [個体値](individual)
