@@ -10,17 +10,13 @@ title: TDQ2
 * [会心率](critical)
 * [呪文命中率](spell_hit_rate)
 * ブレス耐性
-* [魔物の個体差](individual)
 * [逃走確率](escape)
 * [お宝ドロップ率](drop)
-
-
-## 魔物データ
-
-* 行動ルーチン
-* 魔物ステータス（種族値）
-
-
-## 仲間データ
-
-* [仲間の耐性](spell_resistance)
+* [特技一覧](skill_id)
+* 魔物データ
+	* 行動ルーチン
+	* 魔物ステータス（種族値）
+	* [魔物の個体差](individual)
+* 仲間データ
+	* [仲間の耐性](spell_resistance)
+* バグ
