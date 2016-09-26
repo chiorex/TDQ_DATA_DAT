@@ -1,9 +1,7 @@
 # TDQ_DATA_DAT
 
-def
-===
+## def
 Stirling.exe 構造体定義ファイル
 
-lab
-===
+## lab
 dis.x ラベルファイル/テーブルファイル
