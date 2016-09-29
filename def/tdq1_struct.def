@@ -1,3 +1,7 @@
+/**
+ * TDQ_DATA.DAT
+ */
+
 struct TDQ1_持ち物
 {
 	BYTE アイテム[8];
@@ -64,6 +68,10 @@ struct TDQ1_セーブファイル_10C400
 	TDQ1_冒険の書 セーブ[5];
 	TDQ1_冒険の書 ベース;
 };
+
+/**
+ * DRAGON.X
+ */
 
 struct TDQ1_なまえ
 {
