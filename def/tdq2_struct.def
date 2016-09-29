@@ -1,3 +1,7 @@
+/**
+ * TDQ_DATA.DAT
+ */
+
 struct TDQ2_設定
 {
 	BYTE プレイ状態;
@@ -102,11 +106,15 @@ struct TDQ2_キャラ256_4953E
 	TDQ2_キャラ 配列外[232];
 };
 
+/**
+ * DRAGON.X
+ */
+
 struct TDQ2_呪文習得_49EFE
 {
 	DWORD なまえ;
 	byte 性別;
-	WORD 外見;
+	WORD 外見_色;
 	byte 属;
 	byte 習得倍率[20];
 	byte 呪文（戦闘）[18];
@@ -115,7 +123,8 @@ struct TDQ2_呪文習得_49EFE
 	byte 習得順（移動）[10];
 	WORD unknown;
 	BYTE 職;
-	BYTE unknown[7];
+	BYTE unknown;
+	WORD 外見_色[3];
 	DWORD 耐性;
 };
 
