@@ -1,9 +1,9 @@
 ---
 layout: math
-title: TDQ1 会心率
+title: 会心率
+update: 2016-09-29
 ---
 
-# {{ page.title }}
 
 * $$ 45 \gt \mathrm{Lv} $$ の場合
 $$ \dfrac{A}{3(55 - \mathrm{Lv})} $$

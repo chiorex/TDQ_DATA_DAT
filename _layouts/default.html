@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
-<title>{{ page.title }}</title>
+<title>{{ page.dir }} {{ page.title }}</title>
 <!-- cssとかjsもここで読み込み -->
 <style>
 table, th, td {
@@ -26,7 +26,18 @@ h3,h4,h5{
   font-weight: 400;
 }
 </style>
+<style>
+.text-right {
+  text-align: right;
+}
+</style>
 
 <div class="container">
-    {{ content }}
+  <h1>{{ page.dir }} {{ page.title }}</h1>
+  <p class="text-right">
+    {% if page.update %}
+      最終更新日：{{ page.update | date: "%Y/%-m/%-d" }}
+    {% endif %}
+  </p>
+  {{ content }}
 </div>

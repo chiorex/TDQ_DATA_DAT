@@ -1,9 +1,9 @@
 ---
 layout: default
-title: TDQ2 特技一覧
+title: 特技一覧
+update: 2016-09-29
 ---
 
-# {{ page.title }}
 
 整備中
 

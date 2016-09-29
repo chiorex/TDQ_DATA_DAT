@@ -1,9 +1,9 @@
 ---
 layout: default
-title: TDQ1 打撃回避率
+title: 打撃回避率
+update: 2016-09-29
 ---
 
-# {{ page.title }}
 
 | 種類 | 回避率 |
 |:----:|:------:|

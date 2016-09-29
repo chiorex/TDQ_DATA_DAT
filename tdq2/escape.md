@@ -1,9 +1,9 @@
 ---
 layout: default
-title: TDQ2 逃走確率
+title: 逃走確率
+update: 2016-09-29
 ---
 
-# {{ page.title }}
 
 調査停滞中。
 

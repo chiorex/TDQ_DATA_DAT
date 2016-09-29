@@ -1,9 +1,9 @@
 ---
 layout: default
-title: TDQ1 呪文命中率
+title: 呪文命中率
+update: 2016-09-29
 ---
 
-# {{ page.title }}
 
 ## 属性呪文
 

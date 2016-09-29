@@ -1,9 +1,9 @@
 ---
 layout: math
-title: TDQ2 仲間の耐性
+title: 仲間の耐性
+update: 2016-09-29
 ---
 
-# {{ page.title }}
 
 ## 被弾Lvとブレス耐性
 
