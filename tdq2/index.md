@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 
-update: 2016-09-29
+update: 2016-10-06
 ---
 
 
@@ -18,9 +18,9 @@ update: 2016-09-29
 	* 行動ルーチン
 * 仲間データ
 	* [仲間の耐性](spell_resistance)
-* [特技一覧](skill_id)
-* [アイテム ID](item_id)
-* [街 ID](town_id)
-* [misc](misc)
 * バグ
-
+* [misc](misc)
+* 一覧
+	* [特技一覧](skill_id)
+	* [アイテム ID](item_id)
+	* [街 ID](town_id)

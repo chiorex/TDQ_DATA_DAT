@@ -1,7 +1,6 @@
 ---
 layout: default
-title: TDQ
-update: 2016-09-29
+title: TDQ（ドラオエ）
 ---
 
 * [TDQ1](tdq1/)
