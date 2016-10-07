@@ -1,9 +1,10 @@
 ---
 layout: default
 title: 
-update: 2016-10-06
+update: 2016-10-07
 ---
 
+データはXDF版（1999/11/10版DRAGON.X）のものです
 
 * [打撃ダメージ計算](damage)
 * [打撃回避率](avoid)
@@ -12,7 +13,7 @@ update: 2016-10-06
 * ブレス耐性
 * [逃走確率](escape)
 * 魔物データ
-	* 魔物ステータス（種族値）
+	* [魔物ステータス](https://drive.google.com/open?id=18jNK8kaJeE15HNrA6mdT89VcrGiCK6e4yhYCkNYLIgs)
 	* [魔物の個体差](individual)
 	* [お宝ドロップ率](drop)
 	* 行動ルーチン

@@ -1,8 +1,10 @@
 ---
 layout: default
 title: 
-update: 2016-10-06
+update: 2016-10-07
 ---
+
+データはXDF版（1995/10/24版DRAGON.X）のものです
 
 * [打撃ダメージ計算](damage)
 * [打撃回避率](avoid)
@@ -21,4 +23,4 @@ update: 2016-10-06
 	* [特技一覧](skill_id)
 	* パルプンテの効果一覧
 	* [アイテム ID](item_id)
-	* エリア ID
+	* [エリア ID](area_id)
