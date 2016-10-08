@@ -16,7 +16,7 @@ update: 2016-10-08
 	* [魔物ステータス一覧](https://drive.google.com/open?id=1FF0TpyNchQzS6oRcmpotpQ2aY3DNgbhSX-ns2TqLOLo)
 	* [魔物の個体差](individual)
 	* [お宝ドロップ率](drop)
-	* [魔物パーティ一覧](https://drive.google.com/open?id=1Fo1axBb24ioq0EZ2ojoAQl8lu4j6t02HrH_eVeur1KI)
+	* [魔物パーティ一覧](https://drive.google.com/open?id=1ohrnvDf9ML0zGQRJR9KrDvm-XfiZ2Kak4YjoI0cCuP8)
 	* 強さ比べ
 	* 行動ルーチン
 * [misc](misc)
