@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 
-update: 2016-10-07
+update: 2016-10-08
 ---
 
 データはXDF版（1995/10/24版DRAGON.X）のものです
@@ -10,12 +10,14 @@ update: 2016-10-07
 * [打撃回避率](avoid)
 * [会心率](critical)
 * [呪文命中率](spell_hit_rate)
-* ブレス耐性
+* ブレスダメージ
 * [逃走確率](escape)
 * 魔物データ
-	* [魔物ステータス](https://drive.google.com/open?id=1FF0TpyNchQzS6oRcmpotpQ2aY3DNgbhSX-ns2TqLOLo)
+	* [魔物ステータス一覧](https://drive.google.com/open?id=1FF0TpyNchQzS6oRcmpotpQ2aY3DNgbhSX-ns2TqLOLo)
 	* [魔物の個体差](individual)
 	* [お宝ドロップ率](drop)
+	* [魔物パーティ一覧](https://drive.google.com/open?id=1Fo1axBb24ioq0EZ2ojoAQl8lu4j6t02HrH_eVeur1KI)
+	* 強さ比べ
 	* 行動ルーチン
 * [misc](misc)
 * バグ

@@ -1,7 +1,7 @@
 ---
 layout: math
-title: 宝ドロップ率
-update: 2016-09-29
+title: お宝ドロップ率
+update: 2016-10-08
 ---
 
 
