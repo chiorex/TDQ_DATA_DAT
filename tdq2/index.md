@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 
-update: 2016-10-08
+update: 2016-10-09
 ---
 
 データはXDF版（1999/11/10版DRAGON.X）のものです
@@ -13,15 +13,15 @@ update: 2016-10-08
 * ブレスダメージ
 * [逃走確率](escape)
 * 魔物データ
-	* [魔物ステータス](https://drive.google.com/open?id=18jNK8kaJeE15HNrA6mdT89VcrGiCK6e4yhYCkNYLIgs)
 	* [魔物の個体差](individual)
+	* [魔物ステータス](https://drive.google.com/open?id=18jNK8kaJeE15HNrA6mdT89VcrGiCK6e4yhYCkNYLIgs)
+	* [魔物パーティ一覧（暫定）](https://drive.google.com/open?id=1uYFavgB3JNBIv8wr7fisjsKnC6lA87_ICCEHAdqkySA)
 	* [お宝ドロップ率](drop)
-	* 魔物パーティ一覧
-	* 強さ比べ
-	* 行動ルーチン
+	* [強さ比べ](monster_lv)
+	* [魔物の行動パターン](behavior)
 * 仲間データ
-	* [仲間の耐性](spell_resistance)
-* バグ
+	* [仲間の耐性](https://docs.google.com/spreadsheets/d/1CGquBE6P_B38foOpCEYHw3Cu9M-7ZAFH61pXtOd_PCM/pubhtml?gid=1172951806&amp;single=true&amp;widget=true&amp;headers=false)
+* [バグ](bug)
 * [misc](misc)
 * 一覧
 	* [特技一覧](skill_id)

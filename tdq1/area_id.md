@@ -1,10 +1,10 @@
 ---
 layout: default
 title: 棲息エリア
-update: 2016-10-08
+update: 2016-10-09
 ---
 
-![fd.map](../images/tdq1_area.png)
+![fd.map](../images/tdq1_area.png){: style="width: 640px; height: 640px; vertical-align:middle;"}
 
 | No | ID  | エリア | フロア | ラベル |
 |---:|:---:|:-------|:------:|:-------|

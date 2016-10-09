@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 呪文命中率
-update: 2016-10-08
+update: 2016-10-09
 ---
 
 
@@ -88,4 +88,4 @@ update: 2016-10-08
 
 ## 関連項目
 
-強さ比べ
+* [強さ比べ](monster_lv)
