@@ -1,7 +1,7 @@
 ---
 layout: math
 title: 強さ比べ（魔物レベル）
-update:
+update: 2016-10-11
 ---
 
 ## 要約

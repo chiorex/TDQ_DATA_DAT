@@ -1,7 +1,7 @@
 ---
 layout: math
 title: バグ
-update: 
+update: 2016-10-11
 ---
 
 ## 毒消しバグ

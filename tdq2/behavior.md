@@ -1,7 +1,7 @@
 ---
 layout: math
 title: 魔物の行動パターン
-update:
+update: 2016-10-11
 ---
 
 整理中
