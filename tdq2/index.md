@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 
-update: 2016-10-09
+update: 2016-10-13
 ---
 
 データはXDF版（1999/11/10版DRAGON.X）のものです
@@ -19,6 +19,7 @@ update: 2016-10-09
 	* [お宝ドロップ率](drop)
 	* [強さ比べ](monster_lv)
 	* [魔物の行動パターン](behavior)
+	* 混乱/マネマネ(L03e8ba)
 * 仲間データ
 	* [仲間の耐性](https://docs.google.com/spreadsheets/d/1CGquBE6P_B38foOpCEYHw3Cu9M-7ZAFH61pXtOd_PCM/pubhtml?gid=1172951806&amp;single=true&amp;widget=true&amp;headers=false)
 * [バグ](bug)
