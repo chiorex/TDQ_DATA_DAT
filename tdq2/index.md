@@ -19,20 +19,18 @@ update: 2016-10-16
 	* [お宝ドロップ率](drop)
 	* [強さ比べ](monster_lv)
 	* [魔物の行動パターン](behavior)
-	* 混乱/マネマネ(L03e8ba)
+	* [混乱/モシャス](confu)
 * 仲間データ
 	* [仲間の耐性](https://docs.google.com/spreadsheets/d/1CGquBE6P_B38foOpCEYHw3Cu9M-7ZAFH61pXtOd_PCM/pubhtml?gid=1172951806&amp;single=true&amp;widget=true&amp;headers=false)
+	* [仲間の特殊行動](special)
 * 擬似AI
 	* 学習内容（セーブデータ）
-	* 仲間の特殊行動
-		* アウカク
-		* ジハト
-		* ムンムン
-	* 作戦
-		* …調査停滞中
+	* 行動ルーチン(L03f328)…調査停滞中
 * [バグ](bug)
 * [misc](misc)
 * 一覧
 	* [特技一覧](skill_id)
 	* [アイテム ID](item_id)
 	* [街 ID](town_id)
+	* エリア ID（フィールド）](area_id_field)
+	* エリア ID（海）](area_id_sea)
