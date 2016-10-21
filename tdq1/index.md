@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 
-update: 2016-10-09
+update: 2016-10-21
 ---
 
 データはXDF版（1995/10/24版DRAGON.X）のものです
@@ -26,3 +26,5 @@ update: 2016-10-09
 	* パルプンテの効果一覧
 	* [アイテム ID](item_id)
 	* [エリア ID](area_id)
+
+<div><a href="..">TOP</a></div>

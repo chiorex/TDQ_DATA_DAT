@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 
-update: 2016-10-17
+update: 2016-10-21
 ---
 
 データはXDF版（1999/11/10版DRAGON.X）のものです
@@ -34,3 +34,5 @@ update: 2016-10-17
 	* [街 ID](town_id)
 	* [エリア ID（陸地）](area_id_field)
 	* [エリア ID（海）](area_id_sea)
+
+<div><a href="..">TOP</a></div>
