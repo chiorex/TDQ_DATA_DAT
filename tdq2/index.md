@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 
-update: 2016-10-21
+update: 2016-11-04
 ---
 
 データはXDF版（1999/11/10版DRAGON.X）のものです
@@ -25,7 +25,14 @@ update: 2016-10-21
 	* [混乱/モシャス](confu)
 * 擬似AI
 	* [学習内容（セーブデータ）](ai_save)
+	* 行動評価
+		* 武器の持ち替え](ai_weapon)
+		* ダメージ評価値](ai_damage)
+		* 回復
+		* 補助呪文](ai_spell_aux)
+		* 防御
 	* 行動ルーチン(L03f328)…調査停滞中
+	* [misc](ai_misc)
 * [バグ](bug)
 * [misc](misc)
 * 一覧
