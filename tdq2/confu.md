@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 混乱/モシャス
-update: 2016-10-13
+title: 混乱／モシャス
+update: 2016-11-10
 ---
 
 
