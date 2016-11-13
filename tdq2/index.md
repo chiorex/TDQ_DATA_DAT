@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 
-update: 2016-11-10
+update: 2016-11-13
 ---
 
 データはXDF版（1999/11/10版DRAGON.X）のものです
@@ -9,7 +9,7 @@ update: 2016-11-10
 * [打撃ダメージ計算](damage)
 * [打撃回避率](avoid)
 * [会心率](critical)
-* [呪文／ブレスダメージ](spell_damage)
+* [呪文・ブレスダメージ](spell_damage)
 * 呪文命中率
 	* [強さ比べ（敵１）](monster_lv)
 	* [呪文命中率](spell_hit_rate)
