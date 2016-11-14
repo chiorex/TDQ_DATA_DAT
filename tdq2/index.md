@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 
-update: 2016-11-13
+update: 2016-11-14
 ---
 
 データはXDF版（1999/11/10版DRAGON.X）のものです
@@ -13,9 +13,7 @@ update: 2016-11-13
 * 呪文命中率
 	* [強さ比べ（敵１）](monster_lv)
 	* [呪文命中率](spell_hit_rate)
-* 逃走確率
-	* 強さ比べ（敵グ）
-	* [逃走確率](escape)
+* [逃走確率](escape)
 * 魔物データ
 	* [魔物の個体差](individual)
 	* [魔物ステータス](https://drive.google.com/open?id=18jNK8kaJeE15HNrA6mdT89VcrGiCK6e4yhYCkNYLIgs)
@@ -29,11 +27,14 @@ update: 2016-11-13
 * 擬似AI
 	* [学習内容（セーブデータ）](ai_save)
 	* 行動評価
-		* 武器の持ち替え](ai_weapon)
-		* ダメージ評価値](ai_damage)
+		* [打撃ダメージ推定](ai_weapon)
+		* [ダメージ評価](ai_damage)
 		* 回復
-		* 補助呪文](ai_spell_aux)
+		* [補助呪文評価](ai_spell_aux)
 		* 防御
+	* 標的選択
+		* [脅威分析](threat_analysis)
+		* [狙いやすさ](ai_targeting)
 	* 行動ルーチン(L03f328)…調査停滞中
 	* [misc](ai_misc)
 * [バグ](bug)
