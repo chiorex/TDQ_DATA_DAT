@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 
-update: 2016-11-14
+update: 2016-11-17
 ---
 
 データはXDF版（1999/11/10版DRAGON.X）のものです
@@ -31,7 +31,7 @@ update: 2016-11-14
 		* [ダメージ評価](ai_damage)
 		* 回復
 		* [補助呪文評価](ai_spell_aux)
-		* 防御
+		* [防御](ai_defense)
 	* 標的選択
 		* [脅威分析](threat_analysis)
 		* [狙いやすさ](ai_targeting)
