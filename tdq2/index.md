@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 
-update: 2016-11-17
+update: 2016-11-25
 ---
 
 データはXDF版（1999/11/10版DRAGON.X）のものです
@@ -35,7 +35,7 @@ update: 2016-11-17
 	* 標的選択
 		* [脅威分析](threat_analysis)
 		* [狙いやすさ](ai_targeting)
-	* 行動ルーチン(L03f328)…調査停滞中
+	* [行動判断](ai_flow)
 	* [misc](ai_misc)
 * [バグ](bug)
 * [misc](misc)
