@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 
-update: 2016-11-25
+update: 2016-12-11
 ---
 
 データはXDF版（1999/11/10版DRAGON.X）のものです
@@ -23,7 +23,7 @@ update: 2016-11-25
 * 仲間データ
 	* [仲間の耐性](https://docs.google.com/spreadsheets/d/1CGquBE6P_B38foOpCEYHw3Cu9M-7ZAFH61pXtOd_PCM/pubhtml?gid=1172951806&amp;single=true&amp;widget=true&amp;headers=false)
 	* [仲間の特殊行動](special)
-	* [混乱／モシャス](confu)
+	* [混乱／モシャス／ドラゴラム](confu)
 * 擬似AI
 	* [学習内容（セーブデータ）](ai_save)
 	* 行動評価
