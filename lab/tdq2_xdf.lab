@@ -920,7 +920,7 @@
 00393b	DS
 003944	DSF
 00395f	DS
-00396a	P
+00396a	P	_main
 0039b0	P
 0039c8	P
 0039e8	RW
@@ -11258,7 +11258,7 @@
 047336	P
 04734a	DSF
 04736e	DS
-04739c	P
+04739c	P	__main
 047410	P
 047448	P
 04744e	P
@@ -12827,30 +12827,30 @@
 0ee27a	DL
 0ee27e	DL
 0ee282	DL
-0ee286	DU
+0ee286	DU	__iob
 0ee308	DU
-0ee696	DW
-0ee698	DL
-0ee69c	DL
-0ee6a0	DL
-0ee6a4	DL
-0ee6a8	DL
-0ee6ac	DL
-0ee6b0	DL
-0ee6b4	DL
-0ee6b8	DL
-0ee6bc	DL
-0ee6c0	DL
-0ee6c4	DL
-0ee6c8	DL
-0ee6cc	DL
-0ee6d0	DL
-0ee6d4	DL
-0ee6d8	DL
-0ee6dc	DL
-0ee6e0	DL
-0ee6e4	DU
-0ee864	DL
-0ee868	DU
-0eea68	DU
+0ee696	DW	__pback
+0ee698	DL	__PSP
+0ee69c	DL	__PSTA
+0ee6a0	DL	__PEND
+0ee6a4	DL	__DSTA
+0ee6a8	DL	__DEND
+0ee6ac	DL	__BSTA
+0ee6b0	DL	__BEND
+0ee6b4	DL	__SSTA
+0ee6b8	DL	__SEND
+0ee6bc	DL	__HSTA
+0ee6c0	DL	__HDEF
+0ee6c4	DL	__HEND
+0ee6c8	DL	MALLOCP
+0ee6cc	DL	__ENV0
+0ee6d0	DL	__ENV1
+0ee6d4	DL	_environ
+0ee6d8	DL	__cmdline
+0ee6dc	DL	__argc
+0ee6e0	DL	__argv
+0ee6e4	DU	__liobuf
+0ee864	DL	__fmode
+0ee868	DU	__argbuffer
+0eea68	DU	__argvector
 0eecc0	DU
