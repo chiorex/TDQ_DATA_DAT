@@ -1,7 +1,7 @@
 ---
 layout: math
 title: 呪文命中率
-update: 2016-11-29
+update: 2016-12-26
 ---
 
 
@@ -80,5 +80,5 @@ update: 2016-11-29
 ## 関連項目
 
 * [魔物ステータス](https://drive.google.com/open?id=18jNK8kaJeE15HNrA6mdT89VcrGiCK6e4yhYCkNYLIgs)
-* [仲間の耐性](spell_resistance)
+* [仲間の耐性](https://docs.google.com/spreadsheets/d/1CGquBE6P_B38foOpCEYHw3Cu9M-7ZAFH61pXtOd_PCM/pubhtml?gid=1172951806&amp;single=true&amp;widget=true&amp;headers=false)
 * [強さ比べ](monster_lv)
