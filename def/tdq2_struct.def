@@ -114,7 +114,7 @@ struct TDQ2_呪文習得_49EFE
 {
 	DWORD 職業;
 	byte 性別;
-	WORD 外見_色;
+	WORD 外見_色(SPD);
 	byte 属;
 	byte 習得倍率[20];
 	byte 呪文（戦闘）[18];
@@ -124,8 +124,10 @@ struct TDQ2_呪文習得_49EFE
 	WORD unknown;
 	BYTE 職;
 	BYTE unknown;
-	WORD 外見_色[3];
-	DWORD 耐性;
+	WORD 外見_色（戦闘）;	/* $58 */
+	WORD 外見_色（アップ）;
+	WORD 外見_色（全身）;
+	DWORD 耐性;				/* $5e */
 };
 
 struct TDQ2_経験値_4A82E
