@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 
+title: 魔族の大地
 update: 2017-02-04
 ---
 

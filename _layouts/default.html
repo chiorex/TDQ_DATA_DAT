@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
+{% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+{% endif %}
 <title>{{ page.dir }} {{ page.title }}</title>
 <!-- cssとかjsもここで読み込み -->
 <style>
@@ -52,4 +55,7 @@ p{
   </p>
   {{ content }}
   <div><a href="index">index</a></div>
+  <a href="http://your.site.com/page-name">
+    <img src="https://ga-beacon.appspot.com/UA-91417630-1/{{ page.url }}" />
+  </a>
 </div>

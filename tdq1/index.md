@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 
-update: 2016-11-13
+title: 序章　勇者の目覚め
+update: 2017-02-04
 ---
 
 データはXDF版（1995/10/24版DRAGON.X）のものです
