@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 
-update: 2016-12-11
+update: 2017-02-04
 ---
 
 データはXDF版（1999/11/10版DRAGON.X）のものです
@@ -41,6 +41,7 @@ update: 2016-12-11
 * [misc](misc)
 * 一覧
 	* [特技一覧](skill_id)
+	* パルプンテの効果一覧
 	* [アイテム ID](item_id)
 	* [街 ID](town_id)
 	* [エリア ID（陸地）](area_id_field)
