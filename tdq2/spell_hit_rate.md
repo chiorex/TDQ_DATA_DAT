@@ -1,14 +1,14 @@
 ---
 layout: math
 title: 呪文命中率
-update: 2017-02-04
+update: 2017-02-22
 ---
 
 
 ## 属性呪文
 
 * 呪文の属性に対する被弾側の被弾Lvに依存
-* 被弾Lvは魔物の耐性または仲間の耐性を参照
+* 被弾Lvは魔物の耐性（[魔物ステータス](https://drive.google.com/open?id=18jNK8kaJeE15HNrA6mdT89VcrGiCK6e4yhYCkNYLIgs)）または[仲間の耐性](https://docs.google.com/spreadsheets/d/1CGquBE6P_B38foOpCEYHw3Cu9M-7ZAFH61pXtOd_PCM/pubhtml?gid=1172951806&amp;single=true&amp;widget=true&amp;headers=false)を参照
 * 被弾Lvが同じ場合、呪文詠唱者より被弾側の魔物Lvが高ければ命中しやすい（被弾時の強さ比べ）
 
 | 魔物Lv＼被弾Lv | × | △  | ○  |  ◎  |
@@ -46,7 +46,7 @@ update: 2017-02-04
 
 ### 仲間の被弾率
 
-[仲間の耐性](spell_resistance)を参照
+[仲間の耐性](https://docs.google.com/spreadsheets/d/1CGquBE6P_B38foOpCEYHw3Cu9M-7ZAFH61pXtOd_PCM/pubhtml?gid=1172951806&amp;single=true&amp;widget=true&amp;headers=false)を参照
 
 #### 装飾品補正
 

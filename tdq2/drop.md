@@ -1,9 +1,13 @@
 ---
 layout: math
 title: お宝ドロップ率
-update: 2016-10-08
+update: 2017-02-22
 ---
 
+種族ごとのドロップ率は[魔物ステータス](https://drive.google.com/open?id=18jNK8kaJeE15HNrA6mdT89VcrGiCK6e4yhYCkNYLIgs)を参照
+
+
+## ドロップ率計算
 
 | ランク | ドロップ率 | 備考 |
 |:------:|:----------:|:-----|
@@ -29,4 +33,5 @@ $$ \mathrm{DropRate} = \mathrm{盗み発動率}\times{}\dfrac{6\cdot{}\mathrm{Dr
 
 ## 関連項目
 
-アウカクの特殊行動
+* [魔物ステータス](https://drive.google.com/open?id=18jNK8kaJeE15HNrA6mdT89VcrGiCK6e4yhYCkNYLIgs)
+* [仲間の特殊行動](special)
