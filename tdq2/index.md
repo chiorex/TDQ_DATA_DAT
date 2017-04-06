@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 魔族の大地
-update: 2017-02-04
+update: 2017-04-06
 ---
 
 データはXDF版（1999/11/10版DRAGON.X）のものです
@@ -11,8 +11,8 @@ update: 2017-02-04
 * [会心率](critical)
 * [呪文・ブレスダメージ](spell_damage)
 * 呪文命中率
-	* [強さ比べ（敵１）](monster_lv)
 	* [呪文命中率](spell_hit_rate)
+	* [魔法干渉](monster_lv)
 * [逃走確率](escape)
 * 魔物データ
 	* [魔物の個体差](individual)
