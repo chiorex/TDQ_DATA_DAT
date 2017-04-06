@@ -4,27 +4,25 @@
 
 struct TDQ2_設定
 {
-	BYTE プレイ状態;
-	BYTE 文字速度;
-	BYTE unknown2_0[2];
-	WORD 更新日;
-	DWORD 更新時刻;
-	BYTE unknown2_1[2];
-	WORD 作成日;
-	DWORD 作成時刻;
+	byte プレイ状態;
+	byte 文字速度;
+	DWORD 更新日;		/* _GETDATE */
+	byte 更新時刻[4];	/* _GETTIM2 */
+	DWORD 作成日;		/* _GETDATE */
+	byte 作成時刻[4];	/* _GETTIM2 */
 	BYTE ｶﾅ[6];
 	BYTE なまえ[10];
-	BYTE unknown2_2[2];
-	WORD セーブ座標[2];
+	short Lv;
+	short セーブ座標[2];
 	BYTE unknown1;
-	BYTE セーブ街No;
+	byte セーブ街No;
 	BYTE unknown1_2;
 	long プレイ時間;
 };
 
 struct TDQ2_共通
 {
-	BYTE ゲーム内日付時刻[8];
+	byte ゲーム内日付時刻[8];
 	long G;
 	long ペソ;
 	long 預G;
@@ -36,9 +34,9 @@ struct TDQ2_共通
 	WORD 竜[2];
 	BYTE isfield;
 	BYTE unknown1_3;
-	WORD ルラミト_フィールド[2];
-	WORD ルラミト_街[2];
-	BYTE ルラミト_街No;
+	byte ルラミト_フィールド[2];
+	byte ルラミト_街[2];
+	byte ルラミト_街No;
 	BYTE unknown5[5];
 	BYTE フラグ[80];
 	BYTE PT並び1[6];
@@ -114,7 +112,7 @@ struct TDQ2_呪文習得_49EFE
 {
 	DWORD 職業;
 	byte 性別;
-	WORD 外見_色(SPD);
+	byte 外見_色(SPD)[2];
 	byte 属;
 	byte 習得倍率[20];
 	byte 呪文（戦闘）[18];
@@ -124,10 +122,10 @@ struct TDQ2_呪文習得_49EFE
 	WORD unknown;
 	BYTE 職;
 	BYTE unknown;
-	WORD 外見_色（戦闘）;	/* $58 */
-	WORD 外見_色（アップ）;
-	WORD 外見_色（全身）;
-	DWORD 耐性;				/* $5e */
+	byte 外見_色（戦闘）[2];	/* $58 */
+	byte 外見_色（アップ）[2];
+	byte 外見_色（全身）[2];
+	DWORD 耐性;					/* $5e */
 };
 
 struct TDQ2_経験値_4A82E
@@ -164,8 +162,8 @@ struct TDQ2_魔物_4B46E
 	short G;
 	BYTE 特技[6];
 	DWORD 耐性;
-	BYTE 属（外見）;
-	BYTE 種（色）;
+	byte 属（外見）;
+	byte 種（色）;
 	BYTE 宝;
 	BYTE 率;
 };
