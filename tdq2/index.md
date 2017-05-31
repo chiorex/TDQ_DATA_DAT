@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 魔族の大地
-update: 2017-04-06
+update: 2017-05-31
 ---
 
 データはXDF版（1999/11/10版DRAGON.X）のものです
@@ -17,7 +17,7 @@ update: 2017-04-06
 * 魔物データ
 	* [魔物の個体差](individual)
 	* [魔物ステータス](https://drive.google.com/open?id=18jNK8kaJeE15HNrA6mdT89VcrGiCK6e4yhYCkNYLIgs)
-	* [魔物パーティ一覧（暫定）](https://drive.google.com/open?id=1uYFavgB3JNBIv8wr7fisjsKnC6lA87_ICCEHAdqkySA)
+	* [魔物パーティ一覧](https://drive.google.com/open?id=1uYFavgB3JNBIv8wr7fisjsKnC6lA87_ICCEHAdqkySA)
 	* [お宝ドロップ率](drop)
 	* [魔物の行動パターン](behavior)
 * 仲間データ
@@ -29,7 +29,7 @@ update: 2017-04-06
 	* 行動評価
 		* [打撃ダメージ推定](ai_weapon)
 		* [ダメージ評価](ai_damage)
-		* 回復
+		* [治療](ai_heal)
 		* [補助呪文評価](ai_spell_aux)
 		* [防御](ai_defense)
 	* 標的選択
