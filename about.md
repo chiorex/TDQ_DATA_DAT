@@ -16,4 +16,4 @@ title: このサイトについて
 
 ## 更新履歴等
 
-このサイトの[更新履歴](https://github.com/chiorex/TDQ_DATA_DAT/network)
+このサイトの[更新履歴](https://github.com/chiorex/TDQ_DATA_DAT/commits/gh-pages)
