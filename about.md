@@ -17,3 +17,5 @@ title: このサイトについて
 ## 更新履歴等
 
 このサイトの[更新履歴](https://github.com/chiorex/TDQ_DATA_DAT/commits/gh-pages)
+
+<script src="https://gist.github.com/chiorex/97e9fc8986b5450707dac0edcc298b1e.js"></script>
