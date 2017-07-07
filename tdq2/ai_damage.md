@@ -1,7 +1,7 @@
 ---
-layout: math
+layout: default
 title: ダメージ評価
-update: 2017-04-07
+update: 2017-09-10
 ---
 
 ## 推定ダメージ

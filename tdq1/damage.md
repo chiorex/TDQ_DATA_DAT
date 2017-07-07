@@ -1,41 +1,41 @@
 ---
-layout: math
+layout: katex
 title: 打撃ダメージ計算
-update: 2016-10-06
+update: 2017-09-10
 ---
 
 
-※ \\( x\pm{}10\% \\) は \\( 0.9x \sim{} 1.1x \\) の範囲内のランダム値を表すものとする
+※ $x\pm{}10\%$ は $0.9x \sim{} 1.1x$ の範囲内のランダム値を表すものとする
 
-* \\( \mathrm{ATK}= \\) 現在の攻撃力
-* \\( \mathrm{DEF}= \\) 現在の守備力
-* \\( \mathrm{ATK}_B = (\mathrm{ATK}\pm{}10\%) \\).
+* $\mathrm{ATK}=$ 現在の攻撃力
+* $\mathrm{DEF}=$ 現在の守備力
+* $\mathrm{ATK}_B = (\mathrm{ATK}\pm{}10\%)$.
 
 
 ## 通常打撃
 
-* \\( \mathrm{ATK}_B \gt \mathrm{DEF} \\)の場合
-\\[
+* $\mathrm{ATK}_B \gt \mathrm{DEF}$の場合
+[[
 	\dfrac{\sqrt{\mathrm{ATK}_B^{2}-\mathrm{DEF}^{2}}}{2}\pm{}10\%
-\\]
-* \\( 2\cdot{}\mathrm{ATK}_B \gt \mathrm{DEF} \ge \mathrm{ATK}_B \\)の場合
-\\[
+]]
+* $2\cdot{}\mathrm{ATK}_B \gt \mathrm{DEF} \ge \mathrm{ATK}_B$の場合
+[[
 	2\sqrt{2\cdot\mathrm{ATK}_B-\mathrm{DEF}}\pm{}10\%
-\\]
-* \\( 3\cdot{}\mathrm{ATK}_B \gt \mathrm{DEF} \ge 2\cdot{}\mathrm{ATK}_B\\)の場合
-\\[
+]]
+* $3\cdot{}\mathrm{ATK}_B \gt \mathrm{DEF} \ge 2\cdot{}\mathrm{ATK}_B$の場合
+[[
 	0 \sim{} \sqrt{3\cdot\mathrm{ATK}_B-\mathrm{DEF}}
-\\]
+]]
 * その他
-\\[
+[[
 	0 \sim{} 1
-\\]
+]]
 
 
 ## 会心／痛恨
 
-* 会心: \\( \mathrm{ATK}_B \\)
-* 痛恨: \\( \mathrm{ATK}_B \\)
+* 会心: $\mathrm{ATK}_B$
+* 痛恨: $\mathrm{ATK}_B$
 
 ※バイキルトの効果は載らない
 

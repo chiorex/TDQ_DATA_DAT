@@ -1,7 +1,7 @@
 ---
-layout: math
+layout: default
 title: 強さ比べ
-update: 2016-10-12
+update: 2017-09-10
 ---
 
 ## 強さ比べ

@@ -1,7 +1,7 @@
 ---
-layout: math
+layout: katex
 title: 魔物の行動パターン
-update: 2017-09-01
+update: 2017-09-10
 ---
 
 ## 種族固有行動１
@@ -89,15 +89,9 @@ update: 2017-09-01
 
 #### メモ
 
-* $$n =$$ 避けるを除く特技数
-* 打撃の確率
-$$
-	= \left(\dfrac{3}{4}\right)^{n}
-$$
-* 特技の確率
-$$
-	= \dfrac{1 - \left(\dfrac{3}{4}\right)^{n}}{n}
-$$
+* $n =$ 避けるを除く特技数
+* 打撃の確率 $= \left(\dfrac{3}{4}\right)^{n}$
+* 特技の確率 $= \dfrac{1 - \left(\dfrac{3}{4}\right)^{n}}{n}$
 
 #### バグ：魔物のザオリクが発動しない
 

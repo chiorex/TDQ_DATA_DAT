@@ -1,45 +1,45 @@
 ---
-layout: math
+layout: katex
 title: 打撃ダメージ計算
 update: 2017-02-27
 ---
 
 
-※ \\( x\pm{}10\% \\) は \\( 0.9x \sim{} 1.1x \\) の範囲内のランダム値を表すものとする
+※ $x\pm{}10\%$ は $0.9x \sim{} 1.1x$ の範囲内のランダム値を表すものとする
 
-* \\( \mathrm{ATK}= \\) 現在の攻撃力
-* \\( \mathrm{DEF}= \\) 現在の守備力
-* \\( \mathrm{BONUS}= \\) 魔物の弱点を突いたときの攻撃力ボーナス
+* $\mathrm{ATK}=$ 現在の攻撃力
+* $\mathrm{DEF}=$ 現在の守備力
+* $\mathrm{BONUS}=$ 魔物の弱点を突いたときの攻撃力ボーナス
 	* ドラゴンキラーならドラゴン系に+30
 	* ゾンビキラーならニフラム被弾Lvが◎の魔物に+30
 	* 理力の杖でMP不足のときは-25
-* \\( \mathrm{ATK}_B = (\mathrm{ATK}\pm{}10\%) + \mathrm{BONUS} \\).
+* $\mathrm{ATK}_B = (\mathrm{ATK}\pm{}10\%) + \mathrm{BONUS}$.
 
 
 ## 通常打撃
 
-* \\( \mathrm{ATK}_B \gt \mathrm{DEF} \\)の場合
-\\[
+* $\mathrm{ATK}_B \gt \mathrm{DEF}$の場合
+[[
 	\dfrac{\sqrt{\mathrm{ATK}_B^{2}-\mathrm{DEF}^{2}}}{2}\pm{}10\%
-\\]
-* \\( 2\cdot{}\mathrm{ATK}_B \gt \mathrm{DEF} \ge \mathrm{ATK}_B \\)の場合
-\\[
+]]
+* $2\cdot{}\mathrm{ATK}_B \gt \mathrm{DEF} \ge \mathrm{ATK}_B$の場合
+[[
 	2\sqrt{2\cdot\mathrm{ATK}_B-\mathrm{DEF}}\pm{}10\%
-\\]
-* \\( 3\cdot{}\mathrm{ATK}_B \gt \mathrm{DEF} \ge 2\cdot{}\mathrm{ATK}_B\\)の場合
-\\[
+]]
+* $3\cdot{}\mathrm{ATK}_B \gt \mathrm{DEF} \ge 2\cdot{}\mathrm{ATK}_B$の場合
+[[
 	0 \sim{} \sqrt{3\cdot\mathrm{ATK}_B-\mathrm{DEF}}
-\\]
+]]
 * その他
-\\[
+[[
 	0 \sim{} 1
-\\]
+]]
 
 
 ## 会心／痛恨
 
-* 会心: \\( \mathrm{ATK}_B \\)
-* 痛恨: \\( \mathrm{ATK}_B\times{}0.75 \\)
+* 会心: $\mathrm{ATK}_B$
+* 痛恨: $\mathrm{ATK}_B\times{}0.75$
 
 ※バイキルトの効果は載る。
 
@@ -64,9 +64,9 @@ update: 2017-02-27
 ## ブーメラン投げ
 
 * 使うと１グループに __打撃攻撃__
-* 現在の攻撃力($$\mathrm{ATK}$$)を以下の武器固有値に置き換えた打撃ダメージ計算が適用される
+* 現在の攻撃力($\mathrm{ATK}$)を以下の武器固有値に置き換えた打撃ダメージ計算が適用される
 
-| 武器             | $$\mathrm{ATK}$$ |
+| 武器             | $\mathrm{ATK}$ |
 |:----------------:|:---:|
 | ブーメラン       |  15 |
 | バトルブーメラン |  50 |

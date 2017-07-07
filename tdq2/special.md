@@ -1,7 +1,7 @@
 ---
-layout: math
+layout: default
 title: 仲間の特殊行動
-update: 2016-11-10
+update: 2017-09-10
 ---
 
 ## アウカク

@@ -1,7 +1,7 @@
 ---
-layout: math
+layout: katex
 title: お宝ドロップ率
-update: 2017-02-22
+update: 2017-09-10
 ---
 
 種族ごとのドロップ率は[魔物ステータス一覧](https://drive.google.com/open?id=1FF0TpyNchQzS6oRcmpotpQ2aY3DNgbhSX-ns2TqLOLo)を参照
@@ -19,7 +19,7 @@ update: 2017-02-22
 
 ### メモ
 
-$$ \mathrm{DropRate} = \dfrac{6\cdot{}\mathrm{DropRank}-5}{200} $$
+$\mathrm{DropRate} = \dfrac{6\cdot{}\mathrm{DropRank}-5}{200}$
 
 
 ## 関連項目

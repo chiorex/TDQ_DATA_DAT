@@ -1,7 +1,7 @@
 ---
-layout: math
+layout: default
 title: 補助呪文評価
-update: 2017-06-12
+update: 2017-09-10
 ---
 
 よく分かっていないので断片情報のみ

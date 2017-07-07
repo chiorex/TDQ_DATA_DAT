@@ -1,7 +1,7 @@
 ---
-layout: math
+layout: katex
 title: お宝ドロップ率
-update: 2017-02-22
+update: 2017-09-10
 ---
 
 種族ごとのドロップ率は[魔物ステータス](https://drive.google.com/open?id=18jNK8kaJeE15HNrA6mdT89VcrGiCK6e4yhYCkNYLIgs)を参照
@@ -21,14 +21,14 @@ update: 2017-02-22
 
 ### メモ
 
-$$ \mathrm{DropRate} = \dfrac{6\cdot{}\mathrm{DropRank}-5}{200} $$
+$\mathrm{DropRate} = \dfrac{6\cdot{}\mathrm{DropRank}-5}{200}$
 
 
 ## アウカクの盗み
 
 ターンごとに判定。
 
-$$ \mathrm{DropRate} = \mathrm{盗み発動率}\times{}\dfrac{6\cdot{}\mathrm{DropRank}-5}{100} $$
+$\mathrm{DropRate} = \text{盗み発動率}\times{}\dfrac{6\cdot{}\mathrm{DropRank}-5}{100}$
 
 
 ## 関連項目

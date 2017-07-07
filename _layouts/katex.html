@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<script type="text/javascript" src="//code.jquery.com/jquery-1.12.1.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" />
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js"></script>
+<script>$(document).ready(function(){renderMathInElement(document.body,{delimiters: [{left: "[[", right: "]]", display: true},{left: "$", right: "$", display: false}]})});</script>
+
+<div class="container">
+
+  <article>
+    {{ content }}
+  </article>
+
+</div>

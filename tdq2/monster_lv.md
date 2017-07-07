@@ -1,7 +1,7 @@
 ---
-layout: math
+layout: default
 title: 魔法干渉（魔物レベル）
-update: 2017-04-10
+update: 2017-09-10
 ---
 
 ## 要約

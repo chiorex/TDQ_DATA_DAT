@@ -1,7 +1,7 @@
 ---
-layout: math
+layout: default
 title: バグ
-update: 2017-05-31
+update: 2017-09-10
 ---
 
 ## 多刀流

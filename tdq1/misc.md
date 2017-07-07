@@ -1,7 +1,7 @@
 ---
-layout: math
+layout: default
 title: misc
-update: 2017-05-27
+update: 2017-09-10
 ---
 
 

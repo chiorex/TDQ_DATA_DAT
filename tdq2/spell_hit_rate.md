@@ -1,7 +1,7 @@
 ---
-layout: math
+layout: default
 title: 呪文命中率
-update: 2017-04-06
+update: 2017-09-10
 ---
 
 
