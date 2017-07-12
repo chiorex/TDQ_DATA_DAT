@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 魔族の大地
-update: 2017-05-31
+update: 2017-07-12
 ---
 
 データはXDF版（1999/11/10版DRAGON.X）のものです
@@ -41,7 +41,7 @@ update: 2017-05-31
 * [misc](misc)
 * 一覧
 	* [特技一覧](skill_id)
-	* パルプンテの効果一覧
+	* [パルプンテの効果一覧](parupunte)
 	* [アイテム ID](item_id)
 	* [街 ID](town_id)
 	* [エリア ID（陸地）](area_id_field)

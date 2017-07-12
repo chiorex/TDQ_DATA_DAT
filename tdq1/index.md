@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 序章　勇者の目覚め
-update: 2017-03-26
+update: 2017-07-12
 ---
 
 データはXDF版（1995/10/24版DRAGON.X）のものです
@@ -23,7 +23,7 @@ update: 2017-03-26
 * [バグ](bug)
 * 一覧
 	* [特技一覧](skill_id)
-	* パルプンテの効果一覧
+	* [パルプンテの効果一覧](parupunte)
 	* [アイテム ID](item_id)
 	* [街 ID](town_id)
 	* [エリア ID](area_id)
