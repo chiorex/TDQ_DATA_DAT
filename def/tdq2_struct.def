@@ -18,22 +18,23 @@ struct TDQ2_設定
 	byte セーブ街No;
 	BYTE unknown1_2;
 	long プレイ時間;
+	BYTE unknown4[4];
 };
 
 struct TDQ2_共通
 {
-	byte ゲーム内日付時刻[8];
+	byte ゲーム内日付時刻[4];
 	long G;
 	long ペソ;
 	long 預G;
 	BYTE 預アイテム[64];
 	BYTE 作戦;
-	BYTE PT人数[7];
+	BYTE PT人数[7];	/* ALL/DSP/PC */
 	DWORD ルーラ;
 	WORD 船[2];
 	WORD 竜[2];
 	BYTE isfield;
-	BYTE unknown1_3;
+	BYTE 向き;
 	byte ルラミト_フィールド[2];
 	byte ルラミト_街[2];
 	byte ルラミト_街No;
