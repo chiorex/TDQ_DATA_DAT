@@ -1,7 +1,7 @@
 ---
 layout: default
-title: パルプンテ
-update: 2017-07-29
+title: パルプンテの効果
+update: 2017-09-01
 ---
 
 No.0～35の等確率ランダム
