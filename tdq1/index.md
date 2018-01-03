@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 序章　勇者の目覚め
-update: 2017-09-01
+update: 2018-01-03
 ---
 
 データはXDF版（1995/10/24版DRAGON.X）のものです
@@ -19,6 +19,9 @@ update: 2017-09-01
 	* [お宝ドロップ率](drop)
 	* [強さ比べ](monster_lv)
 	* [魔物の行動パターン](behavior)
+* 仲間データ
+	* [呪文習得レベル](spell_lv)
+	* 成長データ
 * [バグ](bug)
 * [misc](misc)
 * 一覧
