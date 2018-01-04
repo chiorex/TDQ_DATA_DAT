@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 序章　勇者の目覚め
-update: 2018-01-03
+update: 2018-01-04
 ---
 
 データはXDF版（1995/10/24版DRAGON.X）のものです
@@ -21,7 +21,7 @@ update: 2018-01-03
 	* [魔物の行動パターン](behavior)
 * 仲間データ
 	* [呪文習得レベル](spell_lv)
-	* 成長データ
+	* [成長データ](https://docs.google.com/spreadsheets/d/e/2PACX-1vQluvb7acvgU3mb3xs-PiNNpgQAAaq7SnWj6YS3toRlYSV9gWBJZksRQ56gnEdjJSNTs2ZkN2T6-EST/pubhtml)
 * [バグ](bug)
 * [misc](misc)
 * 一覧
