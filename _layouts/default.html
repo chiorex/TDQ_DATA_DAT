@@ -17,46 +17,9 @@
 </script>
 <!-- cssとかjsもここで読み込み -->
 <style>
-table, th, td {
-    border-collapse: collapse;
-    border:1px solid #333;
-}
+@import url({{ site.baseurl }}/css/layout.css);
 </style>
-<style>
-  @import url(//fonts.googleapis.com/earlyaccess/notosansjp.css);
-  @import url(//fonts.googleapis.com/earlyaccess/sawarabimincho.css);
-  @import url(//fonts.googleapis.com/css?family=Source+Serif+Pro);
-</style>
-<style>
-body *{
-  font-family: 'Source Serif Pro', 'Noto Sans JP', 'Sawarabi Mincho', serif;
-  font-weight: 300;
-}
-h1,h2{
-  font-family: 'Noto Sans JP', sans-serif;
-  font-weight: 500;
-}
-h3,h4,h5{
-  font-family: 'Noto Sans JP', sans-serif;
-  font-weight: 400;
-}
-a,em,strong{
-  font-family: 'Noto Sans JP', sans-serif;
-  font-weight: 400;
-}
-table{
-  margin-left: 50px;
-}
-p{
-  margin-left: 20px;
-}
-</style>
-<style>
-.text-right {
-  text-align: right;
-}
-</style>
-
+<!-- レイアウト -->
 <div class="container">
   <h1>{{ page.dir }} {{ page.title }}</h1>
   <p class="text-right">
