@@ -84,3 +84,15 @@ a.header_link:hover {
   color: white;
   background-color: midnightblue;
 }
+.header_title2 {
+  padding: 5px;
+  float: left;
+  font-weight: 500;
+  color: white;
+}
+.header_update2 {
+  padding: 5px;
+  padding-right: 10px;
+  float: right;
+  color: white;
+}
