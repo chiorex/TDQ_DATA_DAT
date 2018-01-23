@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 魔族の大地
-update: 2017-07-29
+update: 2018-01-23
 ---
 
 データはXDF版（1999/11/10版DRAGON.X）のものです
@@ -9,7 +9,7 @@ update: 2017-07-29
 * [打撃ダメージ計算](damage)
 * [打撃回避率](avoid)
 * [会心率](critical)
-* [呪文・ブレスダメージ](spell_damage)
+* [呪文・ブレスダメージ軽減](spell_damage)
 * 呪文命中率
 	* [呪文命中率](spell_hit_rate)
 	* [魔法干渉](monster_lv)
@@ -46,5 +46,3 @@ update: 2017-07-29
 	* [街 ID](town_id)
 	* [エリア ID（陸地）](area_id_field)
 	* [エリア ID（海）](area_id_sea)
-
-<div><a href="..">TOP</a></div>

@@ -21,12 +21,44 @@
 </style>
 <!-- レイアウト -->
 <div class="container">
+  <div class="header">
+    <div>
+      <a class="header_link" href="{{ site.baseurl }}/">TDQ（ドラオエ）</a>
+      <a class="header_link" href="{{ site.baseurl }}/tdq1">TDQ1</a>
+      <a class="header_link" href="{{ site.baseurl }}/tdq2">TDQ2</a>
+      <a class="header_link" href="{{ site.baseurl }}/about">about</a>
+    </div>
+    <div class="header_title">
+      {{ page.dir }} {{ page.title }}
+    </div>
+    <div class="header_update">
+      {% if page.update %}
+        最終更新日：{{ page.update | date: "%Y/%-m/%-d" }}
+      {% endif %}
+    </div>
+  </div>
+  <div class="header2">
+    <div>
+      <a class="header_link" href="{{ site.baseurl }}/">TDQ（ドラオエ）</a>
+      <a class="header_link" href="{{ site.baseurl }}/tdq1">TDQ1</a>
+      <a class="header_link" href="{{ site.baseurl }}/tdq2">TDQ2</a>
+      <a class="header_link" href="{{ site.baseurl }}/about">about</a>
+    </div>
+    <div class="header_title">
+      {{ page.dir }} {{ page.title }}
+    </div>
+    <div class="header_update">
+      {% if page.update %}
+        最終更新日：{{ page.update | date: "%Y/%-m/%-d" }}
+      {% endif %}
+    </div>
+  </div>
+  <div>　</div>
+  <div>
   <h1>{{ page.dir }} {{ page.title }}</h1>
-  <p class="text-right">
-    {% if page.update %}
-      最終更新日：{{ page.update | date: "%Y/%-m/%-d" }}
-    {% endif %}
-  </p>
   {{ content }}
-  <div><a href="index">index</a></div>
+  </div>
+  <div class="footer">
+    <a class="header_link" href="{{ site.baseurl }}{{ page.dir }}">index</a>
+  </div>
 </div>

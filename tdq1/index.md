@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 序章　勇者の目覚め
-update: 2018-01-04
+update: 2018-01-23
 ---
 
 データはXDF版（1995/10/24版DRAGON.X）のものです
@@ -9,7 +9,7 @@ update: 2018-01-04
 * [打撃ダメージ計算](damage)
 * [打撃回避率](avoid)
 * [会心率](critical)
-* [呪文・ブレスダメージ](spell_damage)
+* [呪文・ブレスダメージ軽減](spell_damage)
 * [呪文命中率](spell_hit_rate)
 * [逃走確率](escape)
 * 魔物データ
@@ -30,5 +30,3 @@ update: 2018-01-04
 	* [アイテム ID](item_id)
 	* [街 ID](town_id)
 	* [エリア ID](area_id)
-
-<div><a href="..">TOP</a></div>
