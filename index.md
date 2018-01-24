@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: top
 title: TDQ（ドラオエ）
 description: 田圃（たんぼ）氏製作のRPG『ＴＤＱシリーズ』の調査メモです
 ---
