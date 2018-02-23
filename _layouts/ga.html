@@ -1,9 +1,12 @@
 <!DOCTYPE html>
+<html lang="ja">
+<head>
 <meta charset="UTF-8">
 {% if page.description %}
   <meta name="description" content="{{ page.description }}">
 {% endif %}
 <title>{{ page.dir }} {{ page.title }}</title>
+<link rel="stylesheet" href="{{ site.baseurl }}/css/layout.css">
 <!-- Google Analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -15,11 +18,10 @@
   ga('send', 'pageview');
 
 </script>
-<!-- cssとかjsもここで読み込み -->
-<style>
-@import url({{ site.baseurl }}/css/layout.css);
-</style>
-<!-- 本文 -->
+</head>
+<body>
 <div class="container">
   {{ content }}
 </div>
+</body>
+</html>
