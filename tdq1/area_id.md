@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 棲息エリア
-update: 2017-06-12
+update: 2018-03-11
 ---
 
 ![fd.map](https://drive.google.com/uc?export=view&id=0B-YHzIYC8HPdRTlvREljZXdocHM){: style="width: 640px; height: 640px; vertical-align:middle;"}
@@ -31,7 +31,7 @@ update: 2017-06-12
 | 21 | $15 | ガイコビア東の洞窟 | B1 | L02d910 |
 | 22 | $16 |  | B2 | L02d910 |
 | 23 | $17 |  | B3 | L02d98a |
-| 24 | $18 |  | ? | L02d98a |
+| 24 | $18 |  | B4 | L02d98a |
 | 25 | $19 | コビアキムル東の洞窟 | B1 | L02dbb6 |
 | 26 | $1A |  | B2 | L02dc30 |
 | 27 | $1B |  | B3 | L02dc30 |
