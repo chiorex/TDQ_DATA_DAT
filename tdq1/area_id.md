@@ -1,10 +1,10 @@
 ---
 layout: default
 title: 棲息エリア
-update: 2018-03-11
+update: 2022-04-06
 ---
 
-![fd.map](https://drive.google.com/uc?export=view&id=0B-YHzIYC8HPdRTlvREljZXdocHM){: style="width: 640px; height: 640px; vertical-align:middle;"}
+![fd.map](https://drive.google.com/uc?export=view&id=0B-YHzIYC8HPdRTlvREljZXdocHM&resourcekey=0-f5cF83yj7uHNN8qubeqcwA){: style="width: 640px; height: 640px; vertical-align:middle;"}
 
 | No | ID  | エリア | フロア | ラベル |
 |---:|:---:|:-------|:------:|:-------|
