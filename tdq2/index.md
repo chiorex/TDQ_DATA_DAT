@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 魔族の大地
-update: 2018-01-23
+update: 2022-04-26
 ---
 
 データはXDF版（1999/11/10版DRAGON.X）のものです
@@ -21,6 +21,7 @@ update: 2018-01-23
 	* [お宝ドロップ率](drop)
 	* [魔物の行動パターン](behavior)
 * 仲間データ
+	* [平均的な成長データ](https://docs.google.com/spreadsheets/d/e/2PACX-1vQpRGrL8WqA3azyREHD7i0RkpmK-iRjbrqvr5a3hRI07U8SVj-Z0f3ctUm1viZEW5yJUtwIVLP5xluf/pubhtml)
 	* [仲間の耐性](https://docs.google.com/spreadsheets/d/1CGquBE6P_B38foOpCEYHw3Cu9M-7ZAFH61pXtOd_PCM/pubhtml?gid=1172951806&amp;single=true&amp;widget=true&amp;headers=false)
 	* [仲間の特殊行動](special)
 	* [混乱／モシャス／ドラゴラム](confu)
