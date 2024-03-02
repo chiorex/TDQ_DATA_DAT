@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 特技一覧
-update: 2017-09-01
+update: 2024-03-02
 ---
 
 
@@ -83,4 +83,4 @@ update: 2017-09-01
 
 ## 関連項目
 
-* [パルプンテの効果](parupunte)
+* [パルプンテの効果](parupunte.md)

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: AI 行動判断
-update: 2018-04-03
+update: 2024-03-02
 ---
 
 よく分かっていないので断片情報のみ
@@ -136,10 +136,10 @@ update: 2018-04-03
 
 ## 関連項目
 
-* [仲間の特殊行動](special)
-* [逃走確率](escape)
+* [仲間の特殊行動](special.md)
+* [逃走確率](escape.md)
 * 擬似AI
-	* [ダメージ評価](ai_damage)
-	* [治療](ai_heal)
-	* [補助呪文評価](ai_spell_aux)
-	* [狙いやすさ](ai_targeting)
+	* [ダメージ評価](ai_damage.md)
+	* [治療](ai_heal.md)
+	* [補助呪文評価](ai_spell_aux.md)
+	* [狙いやすさ](ai_targeting.md)

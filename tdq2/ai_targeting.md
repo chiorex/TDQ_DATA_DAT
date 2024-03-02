@@ -1,7 +1,7 @@
 ---
 layout: default
 title: AI 狙いやすさ
-update: 2017-04-06
+update: 2024-03-02
 ---
 
 よく分かっていないので断片情報のみ
@@ -57,5 +57,5 @@ AIが標的にする魔物グループを選択するときの狙いやすさ
 
 ## 関連項目
 
-* [脅威分析](threat_analysis)
-* [逃走確率](escape)
+* [脅威分析](threat_analysis.md)
+* [逃走確率](escape.md)

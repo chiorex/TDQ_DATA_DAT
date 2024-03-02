@@ -1,7 +1,7 @@
 ---
 layout: katex
 title: 打撃ダメージ計算
-update: 2017-09-10
+update: 2024-03-02
 ---
 
 
@@ -54,4 +54,4 @@ update: 2017-09-10
 
 ## 関連項目
 
-* [会心率](critical)
+* [会心率](critical.md)

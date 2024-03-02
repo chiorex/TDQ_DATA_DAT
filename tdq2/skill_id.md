@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 特技ID
-update: 2018-04-03
+update: 2024-03-02
 ---
 
 
@@ -155,4 +155,4 @@ update: 2018-04-03
 
 ## 関連項目
 
-* [パルプンテの効果](parupunte)
+* [パルプンテの効果](parupunte.md)

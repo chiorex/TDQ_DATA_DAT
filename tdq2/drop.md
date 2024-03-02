@@ -1,7 +1,7 @@
 ---
 layout: katex
 title: お宝ドロップ率
-update: 2017-09-10
+update: 2024-03-02
 ---
 
 種族ごとのドロップ率は[魔物ステータス](https://drive.google.com/open?id=18jNK8kaJeE15HNrA6mdT89VcrGiCK6e4yhYCkNYLIgs)を参照
@@ -34,4 +34,4 @@ $\mathrm{DropRate} = \text{盗み発動率}\times{}\dfrac{6\cdot{}\mathrm{DropRa
 ## 関連項目
 
 * [魔物ステータス](https://drive.google.com/open?id=18jNK8kaJeE15HNrA6mdT89VcrGiCK6e4yhYCkNYLIgs)
-* [仲間の特殊行動](special)
+* [仲間の特殊行動](special.md)

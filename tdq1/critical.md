@@ -1,7 +1,7 @@
 ---
 layout: katex
 title: 会心率
-update: 2017-09-10
+update: 2024-03-02
 ---
 
 | キャラ   | $\mathrm{Lv} \lt 45$              | $\mathrm{Lv} \ge 45$ |
@@ -23,9 +23,9 @@ update: 2017-09-10
 | 勇者イケタ     |  15.3% |
 | ガアクマ       |  17.1% |
 
-バイケタルは[魔物の行動パターン](behavior)を参照
+バイケタルは[魔物の行動パターン](behavior.md)を参照
 
 
 ## 関連項目
 
-* [魔物の行動パターン](behavior)
+* [魔物の行動パターン](behavior.md)

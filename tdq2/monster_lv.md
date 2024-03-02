@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 魔法干渉（魔物レベル）
-update: 2017-09-10
+update: 2024-03-02
 ---
 
 ## 要約
@@ -235,4 +235,4 @@ HP,攻,守それぞれの比較結果(-1,+1,±0)を総和
 
 ## 関連項目
 
-* [呪文命中率](spell_hit_rate)
+* [呪文命中率](spell_hit_rate.md)

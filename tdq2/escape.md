@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 逃走確率
-update: 2016-11-14
+update: 2024-03-02
 ---
 
 
@@ -40,4 +40,4 @@ update: 2016-11-14
 
 ## 関連項目
 
-* [狙いやすさ](ai_targeting)
+* [狙いやすさ](ai_targeting.md)

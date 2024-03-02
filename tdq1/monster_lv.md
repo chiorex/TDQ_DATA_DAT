@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 強さ比べ
-update: 2017-09-10
+update: 2024-03-02
 ---
 
 ## 強さ比べ
@@ -33,7 +33,7 @@ update: 2017-09-10
 
 ## 関連項目
 
-* [呪文命中率](spell_hit_rate)
-* [逃走確率](escape)
+* [呪文命中率](spell_hit_rate.md)
+* [逃走確率](escape.md)
 * 行動ルーチン
 * 聖水トヘロス
