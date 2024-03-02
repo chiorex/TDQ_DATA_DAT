@@ -7,9 +7,9 @@ description: 田圃（たんぼ）氏製作のRPG『ＴＤＱシリーズ』の�
 自分用の調査メモです。
 情報は間違っていることもあるのでご注意を。
 
-* [TDQ1 XDF版](tdq1/index.html)
-* [TDQ2 XDF版](tdq2/index.html)
-* [TDQ2 バグフィックス版 rev 1.01 以降](tdq2rev101/index.html)
+* [TDQ1 XDF版](tdq1/index.md)
+* [TDQ2 XDF版](tdq2/index.md)
+* [TDQ2 バグフィックス版 rev 1.01 以降](tdq2rev101/index.md)
 
 ### お知らせ
 
