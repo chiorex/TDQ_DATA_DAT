@@ -1,21 +1,20 @@
 ---
 layout: ga
 ---
+<link rel="stylesheet" href="../css/layout.css">
 <div class="container">
   <div class="footer">
-    <a class="header_link" href="{{ site.baseurl }}{{ page.dir }}">index</a>
-    <a class="header_link" href="{{ site.baseurl }}/">top</a>
-    <a class="header_link" href="{{ site.baseurl }}/tdq1/">TDQ1</a>
-    <a class="header_link" href="{{ site.baseurl }}/tdq2/">TDQ2</a>
-    <a class="header_link" href="{{ site.baseurl }}/tdq2rev101/">TDQ2rev</a>
-    <a class="header_link" href="{{ site.baseurl }}/about">about</a>
+    <a class="header_link" href="..{{ page.dir }}">index</a>
+    <a class="header_link" href="../">top</a>
+    <a class="header_link" href="../tdq1/">TDQ1</a>
+    <a class="header_link" href="../tdq2/">TDQ2(1995)</a>
+    <a class="header_link" href="../tdq2rev101/">TDQ2(2020)</a>
     <div class="header_update">
       {% if page.update %}
         最終更新日：{{ page.update | date: "%Y/%-m/%-d" }}
       {% endif %}
     </div>
   </div>
-  <h1>{{ page.dir }} {{ page.title }}</h1>
   {{ content }}
   <hr>
   <div class="eof">[EOF]</div>

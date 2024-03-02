@@ -1,18 +1,21 @@
 ---
-layout: top
+layout: ga
 title: TDQ（ドラオエ）
 description: 田圃（たんぼ）氏製作のRPG『ＴＤＱシリーズ』の調査メモです
 ---
 
-## TDQ1 (1991～)
+自分用の調査メモです。
+情報は間違っていることもあるのでご注意を。
 
-* [XDF版](tdq1/) (1995)
+* [TDQ1 XDF版](tdq1/index.html)
+* [TDQ2 XDF版](tdq2/index.html)
+* [TDQ2 バグフィックス版 rev 1.01 以降](tdq2rev101/index.html)
 
-## TDQ2 (1992～)
+### お知らせ
 
-* [XDF版](tdq2/) (1999)
-* [バグフィックス版 rev 1.01 以降](tdq2rev101/) (2020～)
+<script src="https://gist.github.com/chiorex/d89d26b32bc106fffb1021ea97439472.js"></script>
 
-## about
+### 更新履歴
 
-* [このサイトについて](about)
+[詳細な履歴（外部サイト）](https://github.com/chiorex/TDQ_DATA_DAT/commits/gh-pages)
+<script src="https://gist.github.com/chiorex/97e9fc8986b5450707dac0edcc298b1e.js"></script>
