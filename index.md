@@ -9,7 +9,7 @@ description: 田圃（たんぼ）氏製作のRPG『ＴＤＱシリーズ』の�
 
 * [TDQ1 XDF版](tdq1/index.md)
 * [TDQ2 XDF版](tdq2/index.md)
-* [TDQ2 バグフィックス版 rev 1.01 以降](tdq2rev101/index.md)
+* [TDQ2 令和バグフィックス版（外部サイト）](https://github.com/chiorex/TDQ_DATA_DAT/wiki)
 
 ### お知らせ
 
