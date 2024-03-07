@@ -1,7 +1,7 @@
 ---
-layout: katex
+layout: math
 title: 会心率
-update: 2024-03-02
+update: 2024-03-07
 ---
 
 | キャラ   | $\mathrm{Lv} \lt 45$              | $\mathrm{Lv} \ge 45$ |

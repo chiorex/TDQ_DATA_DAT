@@ -1,7 +1,20 @@
 ---
 layout: default
 ---
-<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- inline config -->
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      macros: {
+      	RR: "{\\bf R}",
+      	bold: ["{\\bf #1}", 1],
+        indep: "{\\perp \\!\\!\\! \\perp}",
+    	}
+    },
+  };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script"></script>
 
 <div class="container">
 

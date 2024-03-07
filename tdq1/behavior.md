@@ -1,7 +1,7 @@
 ---
-layout: katex
+layout: math
 title: 魔物の行動パターン
-update: 2017-09-10
+update: 2024-03-07
 ---
 
 ## 種族固有行動１

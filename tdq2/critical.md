@@ -1,7 +1,7 @@
 ---
-layout: katex
+layout: math
 title: 会心率
-update: 2017-09-10
+update: 2024-03-07
 ---
 
 

@@ -1,7 +1,7 @@
 ---
-layout: katex
+layout: math
 title: お宝ドロップ率
-update: 2024-03-02
+update: 2024-03-07
 ---
 
 種族ごとのドロップ率は[魔物ステータス](https://drive.google.com/open?id=18jNK8kaJeE15HNrA6mdT89VcrGiCK6e4yhYCkNYLIgs)を参照
