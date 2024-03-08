@@ -1,7 +1,7 @@
 ---
 layout: math
 title: 打撃ダメージ計算
-update: 2024-03-07
+update: 2024-03-08
 ---
 
 
@@ -17,13 +17,13 @@ update: 2024-03-07
 * $\mathrm{ATK}_B \gt \mathrm{DEF}$の場合
 
 $$
-	\dfrac{\sqrt{\mathrm{ATK}_B^{2}-\mathrm{DEF}^{2}}}{2}\pm{}10\%
+	\dfrac{\sqrt{\mathrm{ATK}_B^{2}-\mathrm{DEF}^{2}}}{2}\pm{}10\\%
 $$
 
 * $2\cdot{}\mathrm{ATK}_B \gt \mathrm{DEF} \ge \mathrm{ATK}_B$の場合
 
 $$
-	2\sqrt{2\cdot\mathrm{ATK}_B-\mathrm{DEF}}\pm{}10\%
+	2\sqrt{2\cdot\mathrm{ATK}_B-\mathrm{DEF}}\pm{}10\\%
 $$
 
 * $3\cdot{}\mathrm{ATK}_B \gt \mathrm{DEF} \ge 2\cdot{}\mathrm{ATK}_B$の場合
